@@ -16,6 +16,7 @@ Utilizes Dark Sky API to fetch weather information.
 - Fix display of location to strip the country name in front
 - Update the current days on the bottom
 - Optimize application to load all information before displaying page
+- Mobile version
 
 <b>Far Future:</b>
 - Ability to add custom locations to check weather in other areas
