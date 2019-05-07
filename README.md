@@ -1,5 +1,7 @@
 # Weather App
-<b>Version 1.0</b>
+<b>Version 1.1</b>
+
+1.1 update: Updated the display name for location, updated days of the week to update as the week goes along, and made a mobile version.
 
 Weather application created with JavaScript to help learn API requests and optimization of loading information.
 <br>
@@ -12,12 +14,7 @@ Utilizes Dark Sky API to fetch weather information.
 - Next 5 day forecast provided at the bottom (temperature {high, low}, summary)
 - Background Color changes to reflect time of day (dawn, morning, afternoon, evening, night)
 
-<b>Near Future Updates:</b>
-- Fix display of location to strip the country name in front
-- Update the current days on the bottom
+<b>Future Updates:</b>
 - Optimize application to load all information before displaying page
-- Mobile version
-
-<b>Far Future:</b>
 - Ability to add custom locations to check weather in other areas
 - Potentially add more information to the page (sunrise, sunset, hourly forecast for current day)
