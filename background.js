@@ -2,7 +2,7 @@ const backgroundColors = {
     midnight: "linear-gradient(to top, #0f0c29, #302b63, #24243e)",
     dawn: "linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E)",
     morning: "linear-gradient(to top, #fceabb, #f8b500)",
-    afternoon: "linear-gradient(to top, #2980b9, #6dd5fa, #ffffff)",
+    afternoon: "linear-gradient(to top, #ffffff, #6dd5fa, #2980b9)",
     evening: "linear-gradient(to top, #b92b27, #1565c0)"
 };
 
@@ -39,18 +39,23 @@ function setBackground() {
     
     if(time.getHours() >= 22 || time.getHours() <= 5) {
         background.style.background = backgroundColors['midnight'];
+        background.style.color = 'white';
     }
     else if (time.getHours() > 5 && time.getHours() <= 9) {
         background.style.background = backgroundColors['dawn'];
+        background.style.color = 'white';
     }
     else if (time.getHours() > 9 && time.getHours() <= 12){
         background.style.background = backgroundColors['morning'];
+        background.style.color = 'black';
     }
     else if (time.getHours() > 12 && time.getHours() <= 16){
         background.style.background = backgroundColors['afternoon'];
+        background.style.color = 'black';
     }
     else if (time.getHours() > 16 && time.getHours() < 22) {
         background.style.background = backgroundColors['evening'];
+        background.style.color = 'white';
     }    
 }
 
