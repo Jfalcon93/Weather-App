@@ -1,6 +1,8 @@
 # Weather App
 <b>Version 1.1</b>
 
+[Demo] (https://jordanfalcon.dev/projects/weatherapp/index.html)
+
 1.1 update: Updated the display name for location, updated days of the week to update as the week goes along, and made a mobile version.
 
 Weather application created with JavaScript to help learn API requests and optimization of loading information.
